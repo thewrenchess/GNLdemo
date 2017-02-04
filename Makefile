@@ -6,7 +6,7 @@ NAME = gnldemo
 
 SRCS = ./*.c
 
-LIB = libft/*.c
+LIB = libft/libft.a
 
 $(NAME): 
 	@$(CC) $(CFLAGS) $(LIB) $(SRCS) -o $(NAME)

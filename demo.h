@@ -1,7 +1,7 @@
 #ifndef DEMO_H
 # define DEMO_H
 
-# include "libft/libft.h"
+# include "libft/hdrs/libft.h"
 
 # define BUFF_SIZE 64
 # define CHECK (!ft_strcmp(line, "exit") || !ft_strcmp(line, "Exit") || !ft_strcmp(line, "EXIT"))
