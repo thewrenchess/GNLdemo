@@ -89,6 +89,7 @@ char				*ft_strncat(char *restrict s1,
 								size_t n);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 char				*ft_strncpy(char *dst, const char *src, size_t len);
+char				*ft_strndup(char *src, size_t n);
 int					ft_strnequ(char const *s1, char const *s2, size_t len);
 void				ft_strnmove(char **src, char **dst, size_t n);
 char				*ft_strnew(size_t size);
@@ -104,6 +105,8 @@ char				*ft_strtrim(char const *s);
 int					ft_tolower(int c);
 int					ft_toupper(int c);
 char				**ft_tabinit(size_t count, size_t len);
+char				**ft_tabcpy(char **dst, char **src);
+size_t				ft_countline(char **tab);
 void				ft_freetab(char ***tab);
 void				ft_printtab(char **tab);
 int					get_next_line(const int fd, char **line);
