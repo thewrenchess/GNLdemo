@@ -1,3 +1,7 @@
+MK = make
+
+MKFLG = -C libft
+
 CC = gcc
 
 CFLAGS = -Wall -Wextra -Werror
@@ -8,7 +12,9 @@ SRCS = ./*.c
 
 LIB = libft/libft.a
 
-$(NAME): 
+$(NAME):
+	@$(MK) $(MKFLG) re
+	@$(MK) $(MKFLG) clean
 	@$(CC) $(CFLAGS) $(LIB) $(SRCS) -o $(NAME)
 
 all: $(NAME)
