@@ -9,3 +9,4 @@ Get Next Line is ultimately a library function that reads at a set 'BUFF_SIZE' a
 
 ## Known Bugs
 - This get_next_line has not been tested against files with unicode or binary files.
+- This get_next_Line has not been tested in Windows Environment.
