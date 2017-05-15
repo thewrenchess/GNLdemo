@@ -2,7 +2,8 @@
 Get Next Line is ultimately a library function that reads at a set 'BUFF_SIZE' and returns a string read when it encounters a newline.
 
 ## Installation
-`make`
+1. Download the repository;
+2. `make`
 
 ## Usage
 `./gnldemo`
